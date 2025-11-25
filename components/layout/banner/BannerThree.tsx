@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import One from "@/public/images/bg/banner-three-bg.png";
 import Two from "@/public/images/banner/banner-three-left-shape.png";
 import Three from "@/public/images/banner/banner-three-right-shape.png";
@@ -111,13 +111,13 @@ const BannerThree = () => {
           </div>
         </div>
       </div>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         youtube={{ mute: 0, autoplay: 0 }}
         isOpen={isOpen}
         videoId="iVqz_4M5mA0"
         onClose={() => setOpen(false)}
-      />
+      /> */}
     </>
   );
 };

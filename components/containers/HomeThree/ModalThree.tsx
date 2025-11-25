@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import One from "@/public/images/video/video-image1.jpg";
 
 const ModalThree = () => {
@@ -27,13 +27,13 @@ const ModalThree = () => {
           </div>
         </div>
       </div>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         youtube={{ mute: 0, autoplay: 0 }}
         isOpen={isOpen}
         videoId="iVqz_4M5mA0"
         onClose={() => setOpen(false)}
-      />
+      /> */}
     </>
   );
 };

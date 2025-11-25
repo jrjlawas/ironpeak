@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import One from "@/public/images/shape/choose-shape-right.png";
 import Two from "@/public/images/shape/choose-shape-right2.png";
 import Three from "@/public/images/shape/choose-shape-left.png";
@@ -185,13 +185,13 @@ const ChooseArea = () => {
           </div>
         </div>
       </section>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         youtube={{ mute: 0, autoplay: 0 }}
         isOpen={isOpen}
         videoId="iVqz_4M5mA0"
         onClose={() => setOpen(false)}
-      />
+      /> */}
     </>
   );
 };

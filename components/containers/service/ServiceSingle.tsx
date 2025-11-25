@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import One from "@/public/images/service/service-single-image1.jpg";
 import Two from "@/public/images/service/service-single-image2.jpg";
 
@@ -373,13 +373,13 @@ const ServiceSingle = () => {
           </div>
         </div>
       </section>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         youtube={{ mute: 0, autoplay: 0 }}
         isOpen={isOpen}
         videoId="iVqz_4M5mA0"
         onClose={() => setOpen(false)}
-      />
+      /> */}
     </>
   );
 };

@@ -23,7 +23,7 @@ const TopHeader = () => {
               </svg>
 
               <Link href="/" className="ms-1">
-                info@example.com
+                ironpeaktechnologies@gmail.com
               </Link>
             </li>
             <li className="ms-4">
@@ -57,31 +57,37 @@ const TopHeader = () => {
               </svg>
 
               <Link href="/" className="ms-1">
-                +208-6666-0112
+                +63 927 775 7470
               </Link>
             </li>
           </ul>
           <ul className="link-info">
             <li>
-              <Link href="/">
+              <Link
+                href="https://www.facebook.com/profile.php?id=61580416365995"
+                target="_"
+              >
                 <i className="fa-brands fa-facebook-f"></i>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/">
                 <i className="fa-brands fa-twitter"></i>
               </Link>
-            </li>
+            </li> */}
             <li>
-              <Link href="/">
+              <Link
+                href="www.linkedin.com/in/ironpeak-technologies-08a69939a"
+                target="_"
+              >
                 <i className="fa-brands fa-linkedin-in"></i>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/">
                 <i className="fa-brands fa-youtube"></i>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

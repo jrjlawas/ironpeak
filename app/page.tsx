@@ -20,7 +20,7 @@ const page = () => {
       <TopHeader />
       <Header />
       <Banner />
-      <Service />
+      {/* <Service />
       <About />
       <CounterSection />
       <Case />
@@ -28,7 +28,7 @@ const page = () => {
       <Brand />
       <Process />
       <Testimonial />
-      <Blog />
+      <Blog /> */}
       <Footer />
       <CustomCursor />
       <ScrollProgressButton />

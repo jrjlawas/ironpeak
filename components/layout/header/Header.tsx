@@ -3,10 +3,10 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "@/public/images/logo/logo-light.svg";
-import one from "@/public/images/menu/home1-image.jpg";
-import two from "@/public/images/menu/home2-image.jpg";
-import three from "@/public/images/menu/home3-image.jpg";
-import four from "@/public/images/menu/home4-image.jpg";
+// import one from "@/public/images/menu/home1-image.jpg";
+// import two from "@/public/images/menu/home2-image.jpg";
+// import three from "@/public/images/menu/home3-image.jpg";
+// import four from "@/public/images/menu/home4-image.jpg";
 import OffCanvasMenu from "./OffCanvasMenu";
 
 const Header = () => {
@@ -78,7 +78,7 @@ const Header = () => {
                 <ul>
                   <li className="has-megamenu">
                     <Link href="/">Home</Link>
-                    <ul className="sub-menu mega-menu menu-image">
+                    {/* <ul className="sub-menu mega-menu menu-image">
                       <li>
                         <div className="image text-center">
                           <Image src={one} alt="Image" priority />
@@ -135,7 +135,7 @@ const Header = () => {
                           <h6 className="text-white">Home Dark</h6>
                         </div>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li>
                     <Link href="about">About</Link>

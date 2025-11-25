@@ -3,21 +3,22 @@ import "@/public/styles/style.scss";
 import InitAnimations from "@/components/layout/InitAnimations";
 
 export const metadata: Metadata = {
-  title: "Gratech | Software Development & IT Solutions React NextJs Template",
-  description: "Software Development & IT Solutions React NextJs Template",
+  title:
+    "IronPeak Technology | Software Development, IT Solutions & Consultancy",
+  description: "Software Development, IT Solutions & Consultancy",
   keywords: [
     "Software",
     "IT",
     "Agency",
-    "Javascript",
-    "Typescript",
-    "React",
-    "nextjs",
+    "Isabel, Leyte",
+    "IT Consultancy",
+    "Leyte",
+    "Ormoc",
   ],
   authors: [
     {
-      name: "Gramentheme",
-      url: "https://themeforest.net/user/gramentheme",
+      name: "jrlawas",
+      url: "",
     },
   ],
 };

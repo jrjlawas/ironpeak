@@ -20,9 +20,6 @@ import Nine from "@/public/images/banner/banner-right-line4.png";
 const Banner = () => {
   return (
     <section className="banner-area">
-      <div className="banner__line">
-        <Image className="sway__animation" src={Line} alt="shape" priority />
-      </div>
       <div className=" banner__slider">
         <Swiper
           slidesPerView={1}
@@ -46,81 +43,9 @@ const Banner = () => {
           <SwiperSlide>
             <div>
               <div
-                data-animation="slideInLeft"
-                data-duration="2s"
-                data-delay=".3s"
-                className="banner__shape-left2"
-              >
-                <Image src={One} alt="shape" priority />
-              </div>
-              <div
-                data-animation="slideInLeft"
-                data-duration="2s"
-                data-delay=".9s"
-                className="banner__shape-left1"
-              >
-                <Image src={Two} alt="shape" priority />
-              </div>
-              <div className="banner__shape-left3 " data-aos="fade-left">
-                <Image
-                  className="sway__animation"
-                  src={Three}
-                  alt="shape"
-                  priority
-                />
-              </div>
-              <div
-                className="banner__shape-right2"
-                data-animation="slideInRight"
-                data-duration="3s"
-                data-delay=".3s"
-              >
-                <Image src={Four} alt="shape" priority />
-              </div>
-              <div
-                className="banner__shape-right1"
-                data-animation="slideInRight"
-                data-duration="2s"
-                data-delay=".3s"
-              >
-                <Image src={Five} alt="shape" priority />
-              </div>
-              <div
-                className="banner__right-line1"
-                data-animation="slideInRight"
-                data-duration="2s"
-                data-delay=".9s"
-              >
-                <Image src={Six} alt="shape" priority />
-              </div>
-              <div
-                className="banner__right-line2"
-                data-animation="slideInRight"
-                data-duration="2s"
-                data-delay=".7s"
-              >
-                <Image src={Seven} alt="shape" priority />
-              </div>
-              <div
-                className="banner__right-line3"
-                data-animation="slideInRight"
-                data-duration="2s"
-                data-delay=".5s"
-              >
-                <Image src={Eight} alt="shape" priority />
-              </div>
-              <div
-                className="banner__right-line4"
-                data-animation="slideInRight"
-                data-duration="2s"
-                data-delay=".3s"
-              >
-                <Image src={Nine} alt="shape" priority />
-              </div>
-              <div
                 className="slide-bg"
                 style={{
-                  backgroundImage: "url(/images/banner/banner-image.jpg)",
+                  backgroundImage: "url(/images/ironpeak/banner/banner1.svg)",
                 }}
               ></div>
               <div className="container">
@@ -195,81 +120,9 @@ const Banner = () => {
           <SwiperSlide>
             <div>
               <div
-                data-animation="slideInLeft"
-                data-duration="2s"
-                data-delay=".3s"
-                className="banner__shape-left2"
-              >
-                <Image src={One} alt="shape" priority />
-              </div>
-              <div
-                data-animation="slideInLeft"
-                data-duration="2s"
-                data-delay=".9s"
-                className="banner__shape-left1"
-              >
-                <Image src={Two} alt="shape" priority />
-              </div>
-              <div className="banner__shape-left3 " data-aos="fade-left">
-                <Image
-                  className="sway__animation"
-                  src={Three}
-                  alt="shape"
-                  priority
-                />
-              </div>
-              <div
-                className="banner__shape-right2"
-                data-animation="slideInRight"
-                data-duration="3s"
-                data-delay=".3s"
-              >
-                <Image src={Four} alt="shape" priority />
-              </div>
-              <div
-                className="banner__shape-right1"
-                data-animation="slideInRight"
-                data-duration="2s"
-                data-delay=".3s"
-              >
-                <Image src={Five} alt="shape" priority />
-              </div>
-              <div
-                className="banner__right-line1"
-                data-animation="slideInRight"
-                data-duration="2s"
-                data-delay=".9s"
-              >
-                <Image src={Six} alt="shape" priority />
-              </div>
-              <div
-                className="banner__right-line2"
-                data-animation="slideInRight"
-                data-duration="2s"
-                data-delay=".7s"
-              >
-                <Image src={Seven} alt="shape" priority />
-              </div>
-              <div
-                className="banner__right-line3"
-                data-animation="slideInRight"
-                data-duration="2s"
-                data-delay=".5s"
-              >
-                <Image src={LineTwo} alt="shape" priority />
-              </div>
-              <div
-                className="banner__right-line4"
-                data-animation="slideInRight"
-                data-duration="2s"
-                data-delay=".3s"
-              >
-                <Image src={LineThree} alt="shape" priority />
-              </div>
-              <div
                 className="slide-bg"
                 style={{
-                  backgroundImage: "url(/images/banner/banner-image2.jpg)",
+                  backgroundImage: "url(/images/ironpeak/banner/banner2.svg)",
                 }}
               ></div>
               <div className="container">
@@ -344,81 +197,9 @@ const Banner = () => {
           <SwiperSlide>
             <div>
               <div
-                data-animation="slideInLeft"
-                data-duration="2s"
-                data-delay=".3s"
-                className="banner__shape-left2"
-              >
-                <Image src={One} alt="shape" priority />
-              </div>
-              <div
-                data-animation="slideInLeft"
-                data-duration="2s"
-                data-delay=".9s"
-                className="banner__shape-left1"
-              >
-                <Image src={Two} alt="shape" priority />
-              </div>
-              <div className="banner__shape-left3 " data-aos="fade-left">
-                <Image
-                  className="sway__animation"
-                  src={Three}
-                  alt="shape"
-                  priority
-                />
-              </div>
-              <div
-                className="banner__shape-right2"
-                data-animation="slideInRight"
-                data-duration="3s"
-                data-delay=".3s"
-              >
-                <Image src={Four} alt="shape" priority />
-              </div>
-              <div
-                className="banner__shape-right1"
-                data-animation="slideInRight"
-                data-duration="2s"
-                data-delay=".3s"
-              >
-                <Image src={Five} alt="shape" priority />
-              </div>
-              <div
-                className="banner__right-line1"
-                data-animation="slideInRight"
-                data-duration="2s"
-                data-delay=".9s"
-              >
-                <Image src={Six} alt="shape" priority />
-              </div>
-              <div
-                className="banner__right-line2"
-                data-animation="slideInRight"
-                data-duration="2s"
-                data-delay=".7s"
-              >
-                <Image src={Seven} alt="shape" priority />
-              </div>
-              <div
-                className="banner__right-line3"
-                data-animation="slideInRight"
-                data-duration="2s"
-                data-delay=".5s"
-              >
-                <Image src={LineTwo} alt="shape" priority />
-              </div>
-              <div
-                className="banner__right-line4"
-                data-animation="slideInRight"
-                data-duration="2s"
-                data-delay=".3s"
-              >
-                <Image src={LineThree} alt="shape" priority />
-              </div>
-              <div
                 className="slide-bg"
                 style={{
-                  backgroundImage: "url(/images/banner/banner-image3.jpg)",
+                  backgroundImage: "url(/images/ironpeak/banner/banner3.svg)",
                 }}
               ></div>
               <div className="container">

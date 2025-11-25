@@ -10,7 +10,7 @@ import Logo from "@/public/images/logo/logo.svg";
 const Footer = () => {
   return (
     <footer className="footer-area secondary-bg">
-      <div
+      {/* <div
         className="footer__shape-regular-left "
         data-aos="fade-left"
         data-aos-delay="0"
@@ -44,7 +44,7 @@ const Footer = () => {
       </div>
       <div className="footer__shadow-shape">
         <Image src={Five} alt="shodow" priority />
-      </div>
+      </div> */}
       <div className="container">
         <div className="footer__wrp pt-100 pb-100">
           <div
@@ -57,60 +57,63 @@ const Footer = () => {
               <Image src={Logo} alt="Image" priority />
             </Link>
             <p>
-              Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a
-              lacinia curabitur lacinia mollis
+              We deliver reliable IT outsourcing, software development,
+              infrastructure solutions, and technology consulting to help
+              businesses operate smarter. We build scalable systems, modern
+              applications, and efficient processes that support growth, improve
+              performance, and drive long-term success.
             </p>
             <div className="social-icon">
               <Link href="/">
                 <i className="fa-brands fa-facebook-f"></i>
               </Link>
-              <Link href="/">
+              {/* <Link href="/">
                 <i className="fa-brands fa-twitter"></i>
-              </Link>
+              </Link> */}
               <Link href="/">
                 <i className="fa-brands fa-linkedin-in"></i>
               </Link>
-              <Link href="/">
+              {/* <Link href="/">
                 <i className="fa-brands fa-youtube"></i>
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div
-            className="footer__item item-sm "
+            className="footer__item item-big "
             data-aos="fade-up"
             data-aos-delay="200"
             data-aos-duration="1500"
           >
-            <h3 className="footer-title">IT Solution</h3>
+            <h3 className="footer-title">Technology Services</h3>
             <ul>
               <li>
                 <Link href="service-details">
-                  <i className="fa-regular fa-angles-right me-1"></i> IT
-                  Management
-                </Link>
-              </li>
-              <li>
-                <Link href="service-details">
-                  <i className="fa-regular fa-angles-right me-1"></i> SEO
-                  Optimization
-                </Link>
-              </li>
-              <li>
-                <Link href="service-details">
-                  <i className="fa-regular fa-angles-right me-1"></i> Web
+                  <i className="fa-regular fa-angles-right me-1"></i> Software
                   Development
                 </Link>
               </li>
               <li>
                 <Link href="service-details">
-                  <i className="fa-regular fa-angles-right me-1"></i> Cyber
-                  Security
+                  <i className="fa-regular fa-angles-right me-1"></i> Website
+                  Solutions
                 </Link>
               </li>
               <li>
                 <Link href="service-details">
-                  <i className="fa-regular fa-angles-right me-1"></i> Data
-                  Security
+                  <i className="fa-regular fa-angles-right me-1"></i> IT
+                  Outsourcing
+                </Link>
+              </li>
+              <li>
+                <Link href="service-details">
+                  <i className="fa-regular fa-angles-right me-1"></i>{" "}
+                  Infrastructure Integration
+                </Link>
+              </li>
+              <li>
+                <Link href="service-details">
+                  <i className="fa-regular fa-angles-right me-1"></i> Technology
+                  Consulting
                 </Link>
               </li>
             </ul>
@@ -126,7 +129,7 @@ const Footer = () => {
               <li>
                 <Link href="about">
                   <i className="fa-regular fa-angles-right me-1"></i> About
-                  Gratech
+                  IronPeak
                 </Link>
               </li>
               <li>
@@ -136,20 +139,18 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="pricing">
-                  <i className="fa-regular fa-angles-right me-1"></i> Pricing
-                  Plan
-                </Link>
-              </li>
-              <li>
                 <Link href="case">
-                  <i className="fa-regular fa-angles-right me-1"></i> Our
-                  Projects
+                  <i className="fa-regular fa-angles-right me-1"></i> Articles
                 </Link>
               </li>
               <li>
                 <Link href="team">
                   <i className="fa-regular fa-angles-right me-1"></i> Our Team
+                </Link>
+              </li>
+              <li>
+                <Link href="pricing">
+                  <i className="fa-regular fa-angles-right me-1"></i> Contact Us
                 </Link>
               </li>
             </ul>
@@ -162,21 +163,21 @@ const Footer = () => {
           >
             <h3 className="footer-title">Contact Us</h3>
             <p className="mb-20">
-              4517 Washington Ave. Manchester, Kentucky 39495
+              6539 Purok 1 Brgy.Tubod, Isabel Leyte Philippines
             </p>
             <ul className="footer-contact">
               <li>
                 <i className="fa-regular fa-clock"></i>
                 <div className="info">
                   <h5>Opening Hours:</h5>
-                  <p>Mon - Sat: 10.00 AM - 4.00 PM</p>
+                  <p>Mon - Sat: 8:00 AM - 10:00 PM</p>
                 </div>
               </li>
               <li>
                 <i className="fa-duotone fa-phone"></i>
                 <div className="info">
                   <h5>Phone Call:</h5>
-                  <p>208-6666-0112, 308-5555-0113</p>
+                  <p>+63 927 775 7470</p>
                 </div>
               </li>
             </ul>

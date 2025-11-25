@@ -25,15 +25,15 @@ const Service = () => {
               data-aos-delay="0"
               data-aos-duration="1500"
             >
-              <Image className="me-1" src={Two} alt="icon" priority />
-              What We OFFER
+              {/* <Image className="me-1" src={Two} alt="icon" priority /> */}
+              Our Offerings
             </h5>
             <h2
               data-aos="fade-left"
               data-aos-delay="200"
               data-aos-duration="1500"
             >
-              Excellent It Services
+              Technology Services
             </h2>
           </div>
           <Link
@@ -47,6 +47,40 @@ const Service = () => {
           </Link>
         </div>
         <div className="row g-4">
+          <div
+            className="col-lg-4 col-md-6 "
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-delay="400"
+            data-aos-duration="1000"
+          >
+            <div
+              className={
+                "service__item " + (isOverviewOpen === 2 ? " active" : " ")
+              }
+              onMouseEnter={() => setOverviewOpen(2)}
+            >
+              <div className="service-shape">
+                <Image src={Three} alt="shape" priority />
+              </div>
+              <div className="service__icon">
+                <Image src={Six} alt="icon" priority />
+              </div>
+              <h4>
+                <Link href="service-details">
+                  Software & Application Development
+                </Link>
+              </h4>
+              <p>
+                We design and build high-performance software solutions tailored
+                to your business needs—whether it’s a mobile app, web
+                application, or desktop system. Our development process ensures
+                clean architecture, smooth user experience, and scalable
+                performance. From concept to deployment, we turn your ideas into
+                powerful, production-ready applications.
+              </p>
+            </div>
+          </div>
           <div
             className="col-lg-4 col-md-6 "
             data-aos="fade-up"
@@ -67,11 +101,17 @@ const Service = () => {
                 <Image src={Four} alt="icon" priority />
               </div>
               <h4>
-                <Link href="service-details">IT Management</Link>
+                <Link href="service-details">
+                  IT Infrastructure & System Solutions
+                </Link>
               </h4>
               <p>
-                Pellentesque nec the condimentum nec lorem nulla augue est
-                ultricies ac iaculis ut euismod quis sapien.
+                We provide secure, reliable, and scalable IT infrastructure to
+                support your daily operations. From network setup and system
+                integration to portal development and internal tools, our
+                solutions help your team work efficiently while maintaining
+                strong security and uptime. We ensure your technology backbone
+                is built for long-term stability and growth.
               </p>
             </div>
           </div>
@@ -95,39 +135,16 @@ const Service = () => {
                 <Image src={Five} alt="icon" priority />
               </div>
               <h4>
-                <Link href="service-details">Cyber Security</Link>
+                <Link href="service-details">
+                  Technology Consulting & Process Optimization
+                </Link>
               </h4>
               <p>
-                Pellentesque nec the condimentum nec lorem nulla augue est
-                ultricies ac iaculis ut euismod quis sapien.
-              </p>
-            </div>
-          </div>
-          <div
-            className="col-lg-4 col-md-6 "
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-delay="400"
-            data-aos-duration="1000"
-          >
-            <div
-              className={
-                "service__item " + (isOverviewOpen === 2 ? " active" : " ")
-              }
-              onMouseEnter={() => setOverviewOpen(2)}
-            >
-              <div className="service-shape">
-                <Image src={Three} alt="shape" priority />
-              </div>
-              <div className="service__icon">
-                <Image src={Six} alt="icon" priority />
-              </div>
-              <h4>
-                <Link href="service-details">Web Development</Link>
-              </h4>
-              <p>
-                Pellentesque nec the condimentum nec lorem nulla augue est
-                ultricies ac iaculis ut euismod quis sapien.
+                We provide expert support to help businesses choose the right
+                technology for their goals. Through targeted assessments, we
+                identify issues, refine workflows, and recommend practical
+                improvements. Our consulting approach enhances efficiency,
+                improves system performance, and strengthens overall operations.
               </p>
             </div>
           </div>

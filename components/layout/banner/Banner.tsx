@@ -1,21 +1,8 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade, Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import Line from "@/public/images/banner/banner-line.png";
-import LineTwo from "@/public/images/banner/banner-right-line3.png";
-import LineThree from "@/public/images/banner/banner-right-line4.png";
-import One from "@/public/images/banner/banner-regular-left-shape.png";
-import Two from "@/public/images/banner/banner-solid-left-shape.png";
-import Three from "@/public/images/banner/banner-shape-left.png";
-import Four from "@/public/images/banner/banner-shape-right-line.png";
-import Five from "@/public/images/banner/banner-shape-right.png";
-import Six from "@/public/images/banner/banner-right-line1.png";
-import Seven from "@/public/images/banner/banner-right-line2.png";
-import Eight from "@/public/images/banner/banner-right-line3.png";
-import Nine from "@/public/images/banner/banner-right-line4.png";
 
 const Banner = () => {
   return (
@@ -56,32 +43,7 @@ const Banner = () => {
                     data-delay=".3s"
                     className="text-white mb-20"
                   >
-                    <svg
-                      className="me-1"
-                      width="40"
-                      height="16"
-                      viewBox="0 0 40 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <rect
-                        x="0.5"
-                        y="0.500183"
-                        width="25.6667"
-                        height="15"
-                        rx="7.5"
-                        stroke="white"
-                      />
-                      <rect
-                        x="13.3334"
-                        y="0.000183105"
-                        width="26.6667"
-                        height="16"
-                        rx="8"
-                        fill="white"
-                      />
-                    </svg>{" "}
-                    Best it SOULTION Provider
+                    Build Powerful Software for Any Platform
                   </h4>
                   <h1
                     data-animation="slideInRight"
@@ -89,7 +51,7 @@ const Banner = () => {
                     data-delay=".5s"
                     className="text-white"
                   >
-                    Excellent It Services for Your Success
+                    Custom apps designed to scale your business
                   </h1>
                   <p
                     data-animation="slideInRight"
@@ -97,11 +59,10 @@ const Banner = () => {
                     data-delay=".7s"
                     className="mt-20"
                   >
-                    Consectetur adipiscing elit aenean scelerisque at augue
-                    vitae consequat
-                    <br />
-                    quisque eget congue velit in cursus leo sed sodales est eget
-                    turpis.
+                    We develop reliable and high-performance applications across
+                    web, mobile, and desktop. From business tools to full-scale
+                    platforms, our solutions are built to enhance operations,
+                    improve user experience, and support long-term growth.
                   </p>
                   <Link
                     data-animation="slideInRight"
@@ -133,32 +94,7 @@ const Banner = () => {
                     data-delay=".3s"
                     className="text-white mb-20"
                   >
-                    <svg
-                      className="me-1"
-                      width="40"
-                      height="16"
-                      viewBox="0 0 40 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <rect
-                        x="0.5"
-                        y="0.500183"
-                        width="25.6667"
-                        height="15"
-                        rx="7.5"
-                        stroke="white"
-                      />
-                      <rect
-                        x="13.3334"
-                        y="0.000183105"
-                        width="26.6667"
-                        height="16"
-                        rx="8"
-                        fill="white"
-                      />
-                    </svg>{" "}
-                    Best it SOULTION Provider
+                    Reliable IT Infrastructure for Growth
                   </h4>
                   <h1
                     data-animation="slideInRight"
@@ -166,7 +102,7 @@ const Banner = () => {
                     data-delay=".5s"
                     className="text-white"
                   >
-                    Excellent It Services for Your Success
+                    Secure, efficient systems for daily operations
                   </h1>
                   <p
                     data-animation="slideInRight"
@@ -174,11 +110,10 @@ const Banner = () => {
                     data-delay=".7s"
                     className="mt-20"
                   >
-                    Consectetur adipiscing elit aenean scelerisque at augue
-                    vitae consequat
-                    <br />
-                    quisque eget congue velit in cursus leo sed sodales est eget
-                    turpis.
+                    Our team delivers secure and scalable network setups, system
+                    integrations, and digital portals. Built for uptime,
+                    optimized for performance, and supported with professional
+                    IT expertise.
                   </p>
                   <Link
                     data-animation="slideInRight"
@@ -210,32 +145,7 @@ const Banner = () => {
                     data-delay=".3s"
                     className="text-white mb-20"
                   >
-                    <svg
-                      className="me-1"
-                      width="40"
-                      height="16"
-                      viewBox="0 0 40 16"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <rect
-                        x="0.5"
-                        y="0.500183"
-                        width="25.6667"
-                        height="15"
-                        rx="7.5"
-                        stroke="white"
-                      />
-                      <rect
-                        x="13.3334"
-                        y="0.000183105"
-                        width="26.6667"
-                        height="16"
-                        rx="8"
-                        fill="white"
-                      />
-                    </svg>{" "}
-                    Best it SOULTION Provider
+                    Smart Technology Consulting for Businesses
                   </h4>
                   <h1
                     data-animation="slideInRight"
@@ -243,7 +153,7 @@ const Banner = () => {
                     data-delay=".5s"
                     className="text-white"
                   >
-                    Excellent It Services for Your Success
+                    Streamline processes with proven IT strategies
                   </h1>
                   <p
                     data-animation="slideInRight"
@@ -251,11 +161,10 @@ const Banner = () => {
                     data-delay=".7s"
                     className="mt-20"
                   >
-                    Consectetur adipiscing elit aenean scelerisque at augue
-                    vitae consequat
-                    <br />
-                    quisque eget congue velit in cursus leo sed sodales est eget
-                    turpis.
+                    We guide organizations in improving workflows, automating
+                    key operations, and implementing the right technology. Our
+                    goal is to enhance efficiency and help your business operate
+                    smarter.
                   </p>
                   <Link
                     data-animation="slideInRight"

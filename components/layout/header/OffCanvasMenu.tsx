@@ -43,12 +43,12 @@ const OffCanvasMenu = ({ toggleMenu, handleToggleMenu }: any) => {
       <div className="mobile-menu overflow-hidden">
         <nav className="mean-nav">
           <ul>
-            <li className="has-megamenu">
+            {/* <li className="has-megamenu">
               <a
                 className={`drop ${isSubMenuButton("home")}`}
                 onClick={() => handleSubmenu("home")}
               >
-                Home
+                Homes
               </a>
               <ul
                 className={`sub-menu mega-menu menu-image ${isSubMenuOpen(
@@ -103,30 +103,42 @@ const OffCanvasMenu = ({ toggleMenu, handleToggleMenu }: any) => {
                   </div>
                 </li>
               </ul>
-            </li>
+            </li> */}
             <li>
-              <Link href="about">About</Link>
+              <Link href="/">Home</Link>
             </li>
             <li>
               <a
                 className={`drop ${isSubMenuButton("services")}`}
                 onClick={() => handleSubmenu("services")}
               >
-                Services
+                Our Services
               </a>
               <ul className={`sub-menu ${isSubMenuOpen("services")}`}>
                 <li>
-                  <Link href="service-solutions">IT Solutions</Link>
+                  <Link href="/">Software Development</Link>
                 </li>
                 <li>
-                  <Link href="service">IT Services</Link>
+                  <Link href="/">Website Solutions</Link>
                 </li>
                 <li>
-                  <Link href="service-details">Service Details</Link>
+                  <Link href="/">IT Outsourcing</Link>
+                </li>
+                <li>
+                  <Link href="/">Infrastructure Integrations</Link>
+                </li>
+                <li>
+                  <Link href="/">Technology Consulting</Link>
                 </li>
               </ul>
             </li>
             <li>
+              <Link href="/">About IronPeak</Link>
+            </li>
+            <li>
+              <Link href="/">Careers</Link>
+            </li>
+            {/* <li>
               <a
                 className={`drop ${isSubMenuButton("pages")}`}
                 onClick={() => handleSubmenu("pages")}
@@ -159,8 +171,8 @@ const OffCanvasMenu = ({ toggleMenu, handleToggleMenu }: any) => {
                   <Link href="error">404 Error</Link>
                 </li>
               </ul>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a
                 className={`drop ${isSubMenuButton("blog")}`}
                 onClick={() => handleSubmenu("blog")}
@@ -178,26 +190,30 @@ const OffCanvasMenu = ({ toggleMenu, handleToggleMenu }: any) => {
                   <Link href="blog-details">Blog Details</Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
             <li>
-              <Link href="contact">Contact</Link>
+              <Link href="contact">Contact Us</Link>
             </li>
           </ul>
         </nav>
       </div>
       <ul className="info pt-40">
         <li>
-          <i className="fa-solid primary-color fa-location-dot"></i>{" "}
-          <Link href="/">example@example.com</Link>
+          <i className="fa-solid primary-color fa-paper-plane"></i>{" "}
+          <Link href="/">ironpeaktechnologies@gmail.com</Link>
         </li>
         <li className="py-2">
           <i className="fa-solid primary-color fa-phone-volume"></i>{" "}
-          <Link href="tel:+208-6666-0112">+208-6666-0112</Link>
+          <Link href="tel:+639277757470">+63 927 775 7470</Link>
         </li>
-        <li>
-          <i className="fa-solid primary-color fa-paper-plane"></i>{" "}
-          <Link href="/">info@example.com</Link>
-        </li>
+
+        {/* <li>
+          <i className="fa-solid primary-color fa-location-dot"></i>{" "}
+          <Link href="/">
+            DCRD Bldg. Purok 1 Tubod, <br />
+            Isabel Leyte, Philippines
+          </Link>
+        </li> */}
       </ul>
       <div className="social-icon mt-20">
         <Link href="/">

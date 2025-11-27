@@ -1,50 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
-import One from "@/public/images/shape/footer-regular-left.png";
-import Two from "@/public/images/shape/footer-solid-left.png";
-import Three from "@/public/images/shape/footer-regular-right.png";
-import Four from "@/public/images/shape/footer-solid-right.png";
-import Five from "@/public/images/shape/footer-shadow-shape.png";
 import Logo from "@/public/images/logo/logo.svg";
 
 const Footer = () => {
   return (
     <footer className="footer-area secondary-bg">
-      {/* <div
-        className="footer__shape-regular-left "
-        data-aos="fade-left"
-        data-aos-delay="0"
-        data-aos-duration="1500"
-      >
-        <Image src={One} alt="shape" priority />
-      </div>
-      <div
-        className="footer__shape-solid-left "
-        data-aos="fade-left"
-        data-aos-delay="200"
-        data-aos-duration="1500"
-      >
-        <Image className="sway_Y__animation" src={Two} alt="shape" priority />
-      </div>
-      <div
-        className="footer__shape-solid-right "
-        data-aos="fade-right"
-        data-aos-delay="0"
-        data-aos-duration="1500"
-      >
-        <Image className="sway_Y__animation" src={Three} alt="shape" priority />
-      </div>
-      <div
-        className="footer__shape-regular-right "
-        data-aos="fade-right"
-        data-aos-delay="200"
-        data-aos-duration="1500"
-      >
-        <Image src={Four} alt="shape" priority />
-      </div>
-      <div className="footer__shadow-shape">
-        <Image src={Five} alt="shodow" priority />
-      </div> */}
       <div className="container">
         <div className="footer__wrp pt-100 pb-100">
           <div
@@ -64,18 +24,18 @@ const Footer = () => {
               performance, and drive long-term success.
             </p>
             <div className="social-icon">
-              <Link href="/">
+              <Link
+                href="https://www.facebook.com/profile.php?id=61580416365995"
+                target="_"
+              >
                 <i className="fa-brands fa-facebook-f"></i>
               </Link>
-              {/* <Link href="/">
-                <i className="fa-brands fa-twitter"></i>
-              </Link> */}
-              <Link href="/">
+              <Link
+                href="https://linkedin.com/in/ironpeak-technologies-08a69939a"
+                target="_"
+              >
                 <i className="fa-brands fa-linkedin-in"></i>
               </Link>
-              {/* <Link href="/">
-                <i className="fa-brands fa-youtube"></i>
-              </Link> */}
             </div>
           </div>
           <div
@@ -163,7 +123,7 @@ const Footer = () => {
           >
             <h3 className="footer-title">Contact Us</h3>
             <p className="mb-20">
-              6539 Purok 1 Brgy.Tubod, Isabel Leyte Philippines
+              DCRD Bldg. Purok 1 Tubod, Isabel Leyte, Philippines
             </p>
             <ul className="footer-contact">
               <li>

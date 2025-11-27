@@ -20,7 +20,11 @@ const page = () => {
       <TopHeader />
       <Header />
       <Banner />
-      <Service />
+      <About />
+      <Case />
+      <Process />
+
+      {/* <Service /> */}
       {/* <About />
       <CounterSection />
       <Case />

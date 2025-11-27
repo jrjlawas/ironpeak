@@ -4,7 +4,7 @@ import InitAnimations from "@/components/layout/InitAnimations";
 
 export const metadata: Metadata = {
   title:
-    "IronPeak Technology | Software Development, IT Solutions & Consultancy",
+    "IronPeak Technologies | Software Development, IT Solutions & Consultancy",
   description: "Software Development, IT Solutions & Consultancy",
   keywords: [
     "Software",
@@ -14,6 +14,8 @@ export const metadata: Metadata = {
     "IT Consultancy",
     "Leyte",
     "Ormoc",
+    "software development Ormoc",
+    "Fenestra Virtual",
   ],
   authors: [
     {

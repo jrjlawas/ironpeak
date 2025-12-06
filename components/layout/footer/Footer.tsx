@@ -105,7 +105,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="team">
-                  <i className="fa-regular fa-angles-right me-1"></i> Our Team
+                  <i className="fa-regular fa-angles-right me-1"></i> Our Mates
                 </Link>
               </li>
               <li>

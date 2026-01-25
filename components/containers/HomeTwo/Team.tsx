@@ -1,15 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
-import One from "@/public/images/team/team-image1.jpg";
-import Two from "@/public/images/team/team-image2.jpg";
-import Three from "@/public/images/team/team-image3.jpg";
-
+import One from "@/public/images/ironpeak/mates/Mates1.svg";
+import Two from "@/public/images/ironpeak/mates/Mates2.svg";
+import Three from "@/public/images/ironpeak/mates/Mates3.svg";
+import Four from "@/public/images/ironpeak/mates/Mates4.svg";
 const Team = () => {
   return (
     <section className="team-area pt-120 pb-120" id="team-two">
       <div className="container">
         <div className="section-header text-center mb-60">
-          <h5
+          {/* <h5
             className=""
             data-aos="fade-up"
             data-aos-delay="0"
@@ -42,17 +42,18 @@ const Team = () => {
               />
             </svg>
             OUR team
-          </h5>
+          </h5> */}
           <h2
             className=""
             data-aos="fade-up"
             data-aos-delay="200"
             data-aos-duration="1500"
           >
-            Our Leadership Team
+            Meet Our Mates
           </h2>
         </div>
         <div className="row g-4">
+          {/* Sir Ramil */}
           <div
             className="col-xl-4 col-lg-6 col-md-6 "
             data-aos="fade-up"
@@ -66,10 +67,10 @@ const Team = () => {
               <div className="team__content">
                 <h4>
                   <Link className="text-white" href="team-details">
-                    Kawser Ahmed
+                    Ramil Cadlawon
                   </Link>
                 </h4>
-                <span className="text-white">Web Designer</span>
+                <span className="text-white">IronPeak Leader</span>
               </div>
               <div className="team__share">
                 <ul>
@@ -95,6 +96,7 @@ const Team = () => {
               </div>
             </div>
           </div>
+          {/* Sir Aldrin */}
           <div
             className="col-xl-4 col-lg-6 col-md-6 "
             data-aos="fade-up"
@@ -108,10 +110,10 @@ const Team = () => {
               <div className="team__content">
                 <h4>
                   <Link className="text-white" href="team-details">
-                    Karniz Fatema
+                    Aldrin Almia
                   </Link>
                 </h4>
-                <span className="text-white">Customer Support</span>
+                <span className="text-white">IronPeak Leader</span>
               </div>
               <div className="team__share">
                 <ul>
@@ -137,6 +139,7 @@ const Team = () => {
               </div>
             </div>
           </div>
+          {/* Sir Jrods */}
           <div
             className="col-xl-4 col-lg-6 col-md-6 "
             data-aos="fade-up"
@@ -150,10 +153,53 @@ const Team = () => {
               <div className="team__content">
                 <h4>
                   <Link className="text-white" href="team-details">
-                    Alex Pranto
+                    Jhonree Rodriguez
                   </Link>
                 </h4>
-                <span className="text-white">UI/UX Designer</span>
+                <span className="text-white">IronPeak Leader</span>
+              </div>
+              <div className="team__share">
+                <ul>
+                  <li>
+                    <Link href="/">
+                      <i className="fa-brands fa-facebook-f"></i>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/">
+                      <i className="fa-brands fa-instagram"></i>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/">
+                      <i className="fa-brands fa-linkedin-in"></i>
+                    </Link>
+                  </li>
+                </ul>
+                <button>
+                  <i className="fa-sharp fa-light fa-share-nodes"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          {/* Jeh */}
+          <div
+            className="col-xl-4 col-lg-6 col-md-6 "
+            data-aos="fade-up"
+            data-aos-delay="400"
+            data-aos-duration="1500"
+          >
+            <div className="team__item">
+              <div className="image">
+                <Image src={Four} alt="Image" priority />
+              </div>
+              <div className="team__content">
+                <h4>
+                  <Link className="text-white" href="team-details">
+                    Jay Romel Lawas
+                  </Link>
+                </h4>
+                <span className="text-white">IronPeak Leader</span>
               </div>
               <div className="team__share">
                 <ul>

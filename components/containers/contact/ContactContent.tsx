@@ -95,10 +95,7 @@ const ContactContent = () => {
                 >
                   <i className="fa-brands fa-facebook-f"></i>
                 </Link>
-                <Link
-                  href="https://www.linkedin.com/company/ironpeak-tech/?viewAsMember=true"
-                  target="_"
-                >
+                <Link href="linkedin.com/company/ironpeak-tech/" target="_">
                   <i className="fa-brands fa-linkedin-in"></i>
                 </Link>
               </div>

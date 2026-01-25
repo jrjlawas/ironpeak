@@ -31,7 +31,7 @@ const Footer = () => {
                 <i className="fa-brands fa-facebook-f"></i>
               </Link>
               <Link
-                href="https://linkedin.com/in/ironpeak-technologies-08a69939a"
+                href="https://www.linkedin.com/company/ironpeak-tech"
                 target="_"
               >
                 <i className="fa-brands fa-linkedin-in"></i>

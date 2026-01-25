@@ -76,10 +76,7 @@ const TopHeader = () => {
               </Link>
             </li> */}
             <li>
-              <Link
-                href="https://linkedin.com/in/ironpeak-technologies-08a69939a"
-                target="_"
-              >
+              <Link href="linkedin.com/company/ironpeak-tech/" target="_">
                 <i className="fa-brands fa-linkedin-in"></i>
               </Link>
             </li>

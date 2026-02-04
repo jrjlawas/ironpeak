@@ -4,11 +4,12 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import One from "@/public/images/icon/section-title.png";
-import Two from "@/public/images/case/case-image1.jpg";
-import Three from "@/public/images/case/case-image2.jpg";
-import Four from "@/public/images/case/case-image3.jpg";
-import Five from "@/public/images/case/case-image4.jpg";
+
+import offer1 from "@/public/images/ironpeak/offerings/offer1.svg";
+import offer2 from "@/public/images/ironpeak/offerings/offer2.svg";
+import offer3 from "@/public/images/ironpeak/offerings/offer3.svg";
+import offer4 from "@/public/images/ironpeak/offerings/offer4.svg";
+import offer5 from "@/public/images/ironpeak/offerings/offer5.svg";
 
 const Case = () => {
   return (
@@ -75,7 +76,7 @@ const Case = () => {
             <div>
               <div className="case__item">
                 <div className="image case__image">
-                  <Image src={Two} alt="Image" priority />
+                  <Image src={offer1} alt="Image" priority />
                 </div>
                 <div className="case__content">
                   <span className="primary-color sm-font">Application</span>
@@ -98,7 +99,7 @@ const Case = () => {
             <div>
               <div className="case__item">
                 <div className="image case__image">
-                  <Image src={Three} alt="Image" priority />
+                  <Image src={offer2} alt="Image" priority />
                 </div>
                 <div className="case__content">
                   <span className="primary-color sm-font">Solution</span>
@@ -121,7 +122,7 @@ const Case = () => {
             <div>
               <div className="case__item">
                 <div className="image case__image">
-                  <Image src={Four} alt="Image" priority />
+                  <Image src={offer3} alt="Image" priority />
                 </div>
                 <div className="case__content">
                   <span className="primary-color sm-font">Solution</span>
@@ -144,7 +145,7 @@ const Case = () => {
             <div>
               <div className="case__item">
                 <div className="image case__image">
-                  <Image src={Five} alt="Image" priority />
+                  <Image src={offer4} alt="Image" priority />
                 </div>
                 <div className="case__content">
                   <span className="primary-color sm-font">Infrastructure</span>
@@ -167,7 +168,7 @@ const Case = () => {
             <div>
               <div className="case__item">
                 <div className="image case__image">
-                  <Image src={Two} alt="Image" priority />
+                  <Image src={offer5} alt="Image" priority />
                 </div>
                 <div className="case__content">
                   <span className="primary-color sm-font">Consultancy</span>

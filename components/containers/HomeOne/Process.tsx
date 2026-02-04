@@ -5,6 +5,9 @@ import Three from "@/public/images/process/process-image1.png";
 import Four from "@/public/images/process/process-image2.png";
 import Five from "@/public/images/process/process-image3.png";
 
+import proc1 from "@/public/images/ironpeak/process/proc1.svg";
+import proc2 from "@/public/images/ironpeak/process/proc2.svg";
+import proc3 from "@/public/images/ironpeak/process/proc3.svg";
 const Process = () => {
   return (
     <section className="process-area pt-120 pb-120">
@@ -16,7 +19,6 @@ const Process = () => {
             data-aos-delay="0"
             data-aos-duration="1500"
           >
-            <Image className="me-1" src={One} alt="icon" priority />
             Work Process
           </h5>
           <h2
@@ -40,14 +42,14 @@ const Process = () => {
                 <Image src={Two} alt="arry-icon" />
               </div>
               <div className="process__image">
-                <Image src={Three} alt="Image" priority />
+                <Image src={proc1} alt="Image" priority />
                 <span className="process-number">1</span>
               </div>
               <div className="process__content">
-                <h4 className="mt-25 mb-10">Define Requirements</h4>
+                <h4 className="mt-25 mb-10">Discover & Plan</h4>
                 <p>
-                  In a free hour, when our power of choice is untrammelled and
-                  when nothing prevents dolor sit amet, consectetur
+                  We understand your business goals, gather requirements, and
+                  define the project scope, timeline, and technical approach.
                 </p>
               </div>
             </div>
@@ -63,14 +65,14 @@ const Process = () => {
                 <Image src={Two} alt="arry-icon" />
               </div>
               <div className="process__image">
-                <Image src={Four} alt="Image" priority />
+                <Image src={proc2} alt="Image" priority />
                 <span className="process-number">2</span>
               </div>
               <div className="process__content">
-                <h4 className="mt-25 mb-10">Design & Prototyping</h4>
+                <h4 className="mt-25 mb-10">Build & Test</h4>
                 <p>
-                  In a free hour, when our power of choice is untrammelled and
-                  when nothing prevents dolor sit amet, consectetur
+                  Our team designs and develops the solution, performs internal
+                  testing, and ensures quality, performance, and security.
                 </p>
               </div>
             </div>
@@ -83,14 +85,15 @@ const Process = () => {
           >
             <div className="process__item">
               <div className="process__image">
-                <Image src={Five} alt="Image" priority />
+                <Image src={proc3} alt="Image" priority />
                 <span className="process-number">3</span>
               </div>
               <div className="process__content">
-                <h4 className="mt-25 mb-10">Finial Solution</h4>
+                <h4 className="mt-25 mb-10">Launch & Support</h4>
                 <p>
-                  In a free hour, when our power of choice is untrammelled and
-                  when nothing prevents dolor sit amet, consectetur
+                  We deploy the final product, provide documentation and
+                  guidance, and offer ongoing support to ensure smooth
+                  operation.
                 </p>
               </div>
             </div>

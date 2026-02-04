@@ -75,17 +75,18 @@ const Team = () => {
               <div className="team__share">
                 <ul>
                   <li>
-                    <Link href="/">
+                    <Link
+                      href="https://www.facebook.com/ramil.cadlawon"
+                      target="_"
+                    >
                       <i className="fa-brands fa-facebook-f"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/">
-                      <i className="fa-brands fa-instagram"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/">
+                    <Link
+                      href="https://www.linkedin.com/in/ramil-cadlawon-a90b8417/"
+                      target="_"
+                    >
                       <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
                   </li>
@@ -118,60 +119,18 @@ const Team = () => {
               <div className="team__share">
                 <ul>
                   <li>
-                    <Link href="/">
+                    <Link
+                      href="https://www.facebook.com/aldrin.sanchez.almia"
+                      target="_"
+                    >
                       <i className="fa-brands fa-facebook-f"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/">
-                      <i className="fa-brands fa-instagram"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/">
-                      <i className="fa-brands fa-linkedin-in"></i>
-                    </Link>
-                  </li>
-                </ul>
-                <button>
-                  <i className="fa-sharp fa-light fa-share-nodes"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-          {/* Sir Jrods */}
-          <div
-            className="col-xl-4 col-lg-6 col-md-6 "
-            data-aos="fade-up"
-            data-aos-delay="400"
-            data-aos-duration="1500"
-          >
-            <div className="team__item">
-              <div className="image">
-                <Image src={Three} alt="Image" priority />
-              </div>
-              <div className="team__content">
-                <h4>
-                  <Link className="text-white" href="team-details">
-                    Jhonree Rodriguez
-                  </Link>
-                </h4>
-                <span className="text-white">IronPeak Leader</span>
-              </div>
-              <div className="team__share">
-                <ul>
-                  <li>
-                    <Link href="/">
-                      <i className="fa-brands fa-facebook-f"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/">
-                      <i className="fa-brands fa-instagram"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/">
+                    <Link
+                      href="https://www.linkedin.com/in/aldrin-almia-1a5b5491/"
+                      target="_"
+                    >
                       <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
                   </li>
@@ -204,17 +163,59 @@ const Team = () => {
               <div className="team__share">
                 <ul>
                   <li>
-                    <Link href="/">
+                    <Link
+                      href="https://www.facebook.com/jayromel.lawas/"
+                      target="_"
+                    >
                       <i className="fa-brands fa-facebook-f"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/">
-                      <i className="fa-brands fa-instagram"></i>
+                    <Link
+                      href="https://www.linkedin.com/in/jrlawas30"
+                      target="_"
+                    >
+                      <i className="fa-brands fa-linkedin-in"></i>
+                    </Link>
+                  </li>
+                </ul>
+                <button>
+                  <i className="fa-sharp fa-light fa-share-nodes"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          {/* Sir Jrods */}
+          <div
+            className="col-xl-4 col-lg-6 col-md-6 "
+            data-aos="fade-up"
+            data-aos-delay="400"
+            data-aos-duration="1500"
+          >
+            <div className="team__item">
+              <div className="image">
+                <Image src={Three} alt="Image" priority />
+              </div>
+              <div className="team__content">
+                <h4>
+                  <Link className="text-white" href="team-details">
+                    Jhonree Rodriguez
+                  </Link>
+                </h4>
+                <span className="text-white">IronPeak Leader</span>
+              </div>
+              <div className="team__share">
+                <ul>
+                  <li>
+                    <Link href="https://www.facebook.com/jv.rodz.9" target="_">
+                      <i className="fa-brands fa-facebook-f"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/">
+                    <Link
+                      href="https://www.linkedin.com/in/jhonree-rodriguez-904090170/"
+                      target="_"
+                    >
                       <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
                   </li>
